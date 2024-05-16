@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <source src="./app.js">
+    <script src="./app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="item">
+            <span class="mobile">Les carottes sont cuites</span>
+            <span class="tablette">La tomate est bien rouge</span>
+            <span class="desktop">Le navet est mon fruit préféré</span>
+        </div>
+        <div class="item">
+            <span class="mobile">Les carottes sont cuites</span>
+            <span class="tablette">La tomate est bien rouge</span>
+            <span class="desktop">Le navet est mon fruit préféré</span>
+        </div>
+        <div class="item">
+            <span class="mobile">Les carottes sont cuites</span>
+            <span class="tablette">La tomate est bien rouge</span>
+            <span class="desktop">Le navet est mon fruit préféré</span>
+        </div>
+        <div class="item">
+            <span class="mobile">Les carottes sont cuites</span>
+            <span class="tablette">La tomate est bien rouge</span>
+            <span class="desktop">Le navet est mon fruit préféré</span>
+        </div>
+    </div>
+
+    <picture>
+        <source media="(min-width:1024px)" srcset="https://picsum.photos/id/238/200/300">
+        <source media="(min-width:768px)" srcset="https://picsum.photos/id/239/200/300">
+        <img src="https://picsum.photos/id/237/200/300" alt="cuteMobileImage">
+    </picture>
+
 </body>
 </html>
